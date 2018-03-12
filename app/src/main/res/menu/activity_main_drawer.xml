@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/list_tab"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:tint="@color/button_grey"
+            android:actionLayout="@layout/activity_main"
+            android:title="@string/nav_list" />
+        <item
+            android:id="@+id/tiles_tab"
+            android:icon="@drawable/ic_grid_on_black_24dp"
+            android:tint="@color/button_grey"
+            android:actionLayout="@layout/activity_main"
+            android:title="@string/nav_tile" />
+        <item
+            android:id="@+id/cards_tab"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:actionLayout="@layout/activity_main"
+            android:tint="@color/button_grey"
+            android:title="@string/nav_card" />
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_recycler_and_swipe_refresh"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="@string/nav_recycler_view" />
+        <item
+            android:id="@+id/nav_scrolling"
+            android:icon="@drawable/ic_file_download_black_24dp"
+            android:title="@string/nav_scrolling" />
+        <item
+            android:id="@+id/nav_full_screen"
+            android:icon="@drawable/ic_fullscreen_black_24dp"
+            android:title="@string/nav_fullscreen" />
+        <item
+            android:id="@+id/nav_bottom_navigation"
+            android:icon="@drawable/ic_more_horiz_black_24dp"
+            android:title="@string/nav_bottom_navigation" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:actionLayout="@layout/activity_main"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:actionLayout="@layout/activity_main"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>

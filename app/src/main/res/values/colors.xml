@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="calbutton_focus">#11d6ff</color>
+    <color name="background_color">#0000ff</color>
+    <color name="dark_grey">#b1b2b5</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="button_grey">#757575</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray_very_light">#e0e0e0</color>
+    <color name="gray_deep">#666666</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="activity_background">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_background">#eeeeee</color>
+    <color name="google_assistant_background">#F5F5F5</color>
+
+
+
+    <!-- Google Logo Color -->
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="google_red">#EA4335</color>
+
+
+    <!-- Google Apps Color -->
+    <color name="app_blue">#4285f4</color>
+    <color name="app_blue_dark">#3367d6</color>
+    <color name="app_green">#0f9d58</color>
+    <color name="app_green_dark">#0b8043</color>
+    <color name="app_yellow">#f4b400</color>
+    <color name="app_yellow_dark">#f09300</color>
+    <color name="app_red">#db4437</color>
+
+</resources>
