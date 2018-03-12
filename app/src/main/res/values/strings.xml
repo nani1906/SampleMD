@@ -29,7 +29,7 @@
     <string name="nav_card">Card View</string>
     <string name="nav_header_text">Click to start login activity</string>
     <string name="nav_recycler_view">Recycler View</string>
-    <string name="nav_scrolling">Scrolling</string>
+    <string name="nav_scrolling">Details</string>
     <string name="nav_fullscreen">FullScreen</string>
     <string name="nav_bottom_navigation">Bottom Navigation</string>
     <string name="nav_settings">Settings</string>
