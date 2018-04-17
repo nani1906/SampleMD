@@ -1,5 +1,6 @@
 package com.bandari.naveen.samplemd.activities;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -7,11 +8,13 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bandari.naveen.samplemd.MapsActivity;
 import com.bandari.naveen.samplemd.R;
 
 public class DetailActivity extends AppCompatActivity {
@@ -24,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+
         setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // Set Collapsing Toolbar layout to the screen
@@ -54,5 +58,10 @@ public class DetailActivity extends AppCompatActivity {
         Log.e("pictures length ","========"+placePictures.length());
         Log.e("position final ","placePictures========"+position % placePictures.length());
         placePictures.recycle();
+    }
+
+    public void onLocationClick(View view){
+        Intent locationIntent = new Intent(this, MapsActivity.class);
+        startActivity(locationIntent);
     }
 }
